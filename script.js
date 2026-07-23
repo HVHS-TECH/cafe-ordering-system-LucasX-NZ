@@ -62,7 +62,7 @@ function submitorder() {
         
         document.getElementById("output").innerHTML =
         "Thank you for your order" + username +
-        "<br>" + order +
+        "<br>" + cart +
         "<br> total cost is:" + cartTotal + 
         "<br> you have:" + money +
         "<br> which means you get" + (money - cartTotal) + "back" +
