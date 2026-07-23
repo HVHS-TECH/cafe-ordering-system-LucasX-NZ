@@ -52,8 +52,8 @@ function displaycart() {
 //checking out
 function submitorder() {
 
-    let username = document.getElementById("name").value;
-    let money = Number(document.getElementById("money").value);
+    username = document.getElementById("name").value;
+    money = Number(document.getElementById("money").value);
 
     for (let i = 0; i < cart.length; i += 3) {
         cartTotal +=  + cart [i + 2];
@@ -86,15 +86,15 @@ function submitorder() {
          "Sorry " + username +
          ", at this moment, you can not afford this." +
           "<br> you need $" + (cartTotal - money) + " more."
-        "<br><br> <button onclick="clearorder()">clear order"</button>";
+        "<br><br> <button onclick="clearorder()">clear order</button>";
     }
 }
 
 //resetting/clearing order
 function clearorder() {
     document.getElementById("output").innerHTML = "";
-    let cart = []
-    let cartTotal  = 0;
-    let username = 0;
-    let money = 0;
+    cart = []
+    cartTotal  = 0;
+    username = 0;
+    money = 0;
 }
