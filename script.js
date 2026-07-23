@@ -66,9 +66,14 @@ function submitorder() {
        
         for (let i = 0; i < cart.length; i += 3) {
 
-            document.getElementById("output")
+            document.getElementById("output").innerHTML +=
+            cart[i] +
+        " x " + cart [i + 1] +
+        " : $" + cart [i + 2] +
+        "<br>";
         }
-
+        
+        document.getElementById("output").innerHTML =
         "<br> total cost is: " + cartTotal + 
         "<br> you have: $" + money +
         "<br> which means you get $" + (money - cartTotal) + " back" +
