@@ -11,7 +11,7 @@ let i = 0;
 
 function addtocart(item, price) {
     
-    for (i < cart.length;  i += 3) {
+    for (i = 0; i < cart.length;  i += 3) {
 
         if  (cart[i] == item) {
 
@@ -27,9 +27,9 @@ function addtocart(item, price) {
 function displaycart() {
 
     OUTPUT.innerHTML = "";
-    for (i < cart.length;  i += 3) {
+    for (i = 0; i < cart.length;  i += 3) {
 
-        OUTPUT.innterHTML +=
+        OUTPUT.innerHTML +=
         cart[i] +
         "x" + cart [i + 1] +
         " : $" + cart [i + 2];
