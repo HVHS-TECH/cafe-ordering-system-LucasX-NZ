@@ -36,9 +36,10 @@ function displaycart() {
     for (i = 0; i < cart.length;  i += 3) {
 
         OUTPUT.innerHTML +=
+        "<p>" +
         cart[i] +
         " x " + cart [i + 1] +
         " : $" + cart [i + 2];
-        "<br><br>";
+        "</p>"
     }
 }

@@ -26,3 +26,7 @@
     flex-direction: column;
     align-items:baseline
 }
+
+.cartoutput p {
+    margin-bottom: 20px;
+}
