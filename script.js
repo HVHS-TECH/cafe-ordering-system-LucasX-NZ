@@ -60,6 +60,8 @@ function submitorder() {
 
     if (money >= cartTotal) {
         
-        document.getElementById("output")
+        document.getElementById("output").innerHTML =
+        "Thank you for your order" + username +
+        "<br>"
     }
 }
