@@ -85,7 +85,7 @@ function submitorder() {
          document.getElementById("output").innerHTML = 
          "Sorry " + username +
          ", at this moment, you can not afford this." +
-          "<br> you need $" + (cartTotal - money) + " more."
+          "<br> you need $" + (cartTotal - money) + " more." +
         "<br><br> <button onclick='clearorder()'>clear order</button>";
     }
 }
