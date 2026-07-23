@@ -44,7 +44,7 @@ function displaycart() {
         "<p>" +
         cart[i] +
         " x " + cart [i + 1] +
-        " : $" + cart [i + 2]
+        " : $" + cart [i + 2] +
         "</p>";
     }
 }
@@ -79,14 +79,14 @@ function submitorder() {
         "<br> you have: $" + money +
         "<br> which means you get $" + (money - cartTotal) + " back" +
         "<br> have a good rest of your day!" +
-        "<br><br> <button onclick="clearorder()">clear order"</button>"
+        "<br><br> <button onclick='clearorder()'>clear order</button>"
 
     } else {
          document.getElementById("output").innerHTML = 
          "Sorry " + username +
          ", at this moment, you can not afford this." +
           "<br> you need $" + (cartTotal - money) + " more."
-        "<br><br> <button onclick="clearorder()">clear order</button>";
+        "<br><br> <button onclick='clearorder()'>clear order</button>";
     }
 }
 
