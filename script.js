@@ -10,7 +10,8 @@ let i = 0;
 //Functions
 
 function addtocart(item, price) {
-    cart.push(item, price);
+    
+    for (i < cart.length;  i += 3)
 }
 
 function displaycart() {
