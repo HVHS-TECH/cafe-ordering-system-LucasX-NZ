@@ -25,6 +25,8 @@ function addtocart(item, price) {
     cart.push(item);
     cart.push(1);
     cart.push(price);
+    
+displaycart();
 }
 
 function displaycart() {
