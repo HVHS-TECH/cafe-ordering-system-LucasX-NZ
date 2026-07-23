@@ -15,6 +15,9 @@ function addtocart(item, price) {
 
 function displaycart() {
 
-    for (i < cart.length;)
+    for (i < cart.length;  i += 3) {
+
+        if (cart[i] == item
+    }
         
 }
