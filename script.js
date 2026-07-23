@@ -58,6 +58,8 @@ function submitorder() {
         cartTotal +=  + cart [i + 2];
     }
 
-
-    
+    if (money >= cartTotal) {
+        
+        document.getElementById("output")
+    }
 }
