@@ -8,6 +8,8 @@ let balance = 0;
 
 //Functions
 
+
+//Adding items to cart
 function addtocart(item, price) {
     
     for (i = 0; i < cart.length;  i += 3) {
@@ -25,10 +27,11 @@ function addtocart(item, price) {
     cart.push(item);
     cart.push(1);
     cart.push(price);
-    
+
 displaycart();
 }
 
+//showing items in cart
 function displaycart() {
 
     let OUTPUT = document.getElementById("cartoutput")
@@ -44,4 +47,12 @@ function displaycart() {
         " : $" + cart [i + 2];
         "</p>"
     }
+}
+
+//submitting name and money
+function submitorder() {
+
+    let username = document.getElementById("name").value;
+    let money = Number(document.getElementById("money").value);
+    
 }
