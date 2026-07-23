@@ -30,3 +30,9 @@
 .cartoutput p {
     margin-bottom: 20px;
 }
+
+.checkout {
+     p { 
+        font-size: 20px;
+    }
+}

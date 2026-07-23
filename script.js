@@ -61,11 +61,11 @@ function submitorder() {
     if (money >= cartTotal) {
         
         document.getElementById("output").innerHTML =
-        "Thank you for your order" + username +
+        "Thank you for your order " + username +
         "<br>" + cart +
-        "<br> total cost is:" + cartTotal + 
-        "<br> you have:" + money +
-        "<br> which means you get" + (money - cartTotal) + "back" +
+        "<br> total cost is: " + cartTotal + 
+        "<br> you have: $" + money +
+        "<br> which means you get $" + (money - cartTotal) + " back" +
         "<br> have a good rest of your day!"
 
     } else {
