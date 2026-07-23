@@ -95,6 +95,6 @@ function clearorder() {
     document.getElementById("output").innerHTML = "";
     cart = []
     cartTotal  = 0;
-    username = 0;
+    username = "";
     money = 0;
 }
