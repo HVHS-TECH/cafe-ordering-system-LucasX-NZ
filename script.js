@@ -43,8 +43,8 @@ function displaycart() {
         "<p>" +
         cart[i] +
         " x " + cart [i + 1] +
-        " : $" + cart [i + 2];
-        "</p>"
+        " : $" + cart [i + 2]
+        "</p>";
     }
 }
 
@@ -62,7 +62,7 @@ function submitorder() {
         
         document.getElementById("output").innerHTML =
         "Thank you for your order" + username +
-        "<br>" cart[i] +
+        "<br>" + cart[i] +
         " x " + cart [i + 1] +
         " : $" + cart [i + 2] +
         "<br> total cost is:" + cartTotal + 
@@ -73,7 +73,7 @@ function submitorder() {
     } else {
          document.getElementById("output").innerHTML = 
          "Sorry " + username +
-         ", at this moment, you can not afford this."
+         ", at this moment, you can not afford this." +
           "<br> you need $" + (cartTotal - money) + "more.";
     }
 }
