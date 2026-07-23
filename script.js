@@ -1,8 +1,8 @@
-<>Variables</>
+<!--Vararibles-->
 
 let cart = [];
 
-<>functions</>
+<!--functions-->
 
 function addtocart(item) {
     cart.push(item);
