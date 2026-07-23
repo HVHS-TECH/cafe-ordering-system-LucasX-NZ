@@ -54,7 +54,7 @@ function submitorder() {
     let username = document.getElementById("name").value;
     let money = Number(document.getElementById("money").value);
 
-    for (let i = 0; i < cartlength; i += 3) {
+    for (let i = 0; i < cart.length; i += 3) {
         cartTotal +=  + cart [i + 2];
     }
 
