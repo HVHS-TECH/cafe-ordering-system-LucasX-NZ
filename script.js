@@ -1,8 +1,11 @@
-<!--Vararibles-->
+//Variable
 
 let cart = [];
+let name = 0;
+let balance = 0;
 
-<!--functions-->
+
+//Functions
 
 function addtocart(item) {
     cart.push(item);
