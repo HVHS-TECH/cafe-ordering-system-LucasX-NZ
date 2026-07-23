@@ -4,4 +4,6 @@ let cart = [];
 
 <>functions</>
 
-function addtocart
+function addtocart(item) {
+    cart.push(item);
+}
