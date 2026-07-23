@@ -62,7 +62,7 @@ function submitorder() {
         
         document.getElementById("output").innerHTML =
         "Thank you for your order " + username +
-        "<br>";
+        "<br><br>";
        
         for (let i = 0; i < cart.length; i += 3) {
 
@@ -73,8 +73,8 @@ function submitorder() {
         "<br>";
         }
         
-        document.getElementById("output").innerHTML =
-        "<br> total cost is: " + cartTotal + 
+        document.getElementById("output").innerHTML +=
+        "<br> total cost is: $" + cartTotal + 
         "<br> you have: $" + money +
         "<br> which means you get $" + (money - cartTotal) + " back" +
         "<br> have a good rest of your day!"
@@ -83,6 +83,6 @@ function submitorder() {
          document.getElementById("output").innerHTML = 
          "Sorry " + username +
          ", at this moment, you can not afford this." +
-          "<br> you need $" + (cartTotal - money) + "more.";
+          "<br> you need $" + (cartTotal - money) + " more.";
     }
 }
