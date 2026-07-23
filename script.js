@@ -15,7 +15,11 @@ function addtocart(item, price) {
 
 function displaycart() {
 
+    OUTPUT.innerHTML = "";
     for (i < cart.length;  i += 3) {
 
+        OUTPUT.innterHTML +=
+        cart[i] +
+        "x" + cart
 
 }
