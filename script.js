@@ -93,6 +93,7 @@ function submitorder() {
 //resetting/clearing order
 function clearorder() {
     document.getElementById("output").innerHTML = "";
+    document.getElementById("cartoutput").innerHTML = "";
     cart = []
     cartTotal  = 0;
     username = "";
