@@ -9,10 +9,12 @@ let i = 0;
 
 //Functions
 
-function addtocart(item) {
-    cart.push(item);
+function addtocart(item, price) {
+    cart.push(item, price);
 }
 
 function displaycart() {
+
     for (i < cart.length;)
+        
 }
