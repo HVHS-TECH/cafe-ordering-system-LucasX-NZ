@@ -2,8 +2,7 @@ console.log("JavaScript loaded");
 //Variable
 
 let cart = [];
-var cartTotal  = 0;
-let name = 0;
+let cartTotal  = 0;
 let balance = 0;
 
 //Functions
@@ -49,10 +48,11 @@ function displaycart() {
     }
 }
 
-//submitting name and money
+//checking out
 function submitorder() {
 
     let username = document.getElementById("name").value;
     let money = Number(document.getElementById("money").value);
+
     
 }
