@@ -14,5 +14,5 @@ function addtocart(item) {
 }
 
 function displaycart() {
-    for ()
+    for (i < cart.length;)
 }
